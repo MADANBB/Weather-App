@@ -15,7 +15,8 @@ body {
 }
 
 .app {
-  width: 380px;
+  width: 90%;
+  max-width: 380px;
   padding: 30px;
   border-radius: 25px;
   background: rgba(255, 255, 255, 0.15);
@@ -117,3 +118,18 @@ h1 {
     transform: translateY(0);
   }
 }
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 26px;
+  }
+
+  .weather-card h1 {
+    font-size: 40px;
+  }
+
+  .details {
+    grid-template-columns: 1fr;
+  }
+}
+
