@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SkyCast | Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="app">
+    <h1>🌤 SkyCast</h1>
+    <p class="tagline">Beautiful Weather, Instantly</p>
+
+    <div class="search-box">
+      <input type="text" id="locationInput" placeholder="Enter city name">
+      <button id="search">Search</button>
+    </div>
+
+    <div class="weather-card" id="weatherCard">
+      <h2 id="city"></h2>
+      <img id="icon" />
+      <h1 id="temp"></h1>
+      <p id="condition"></p>
+
+      <div class="details">
+        <div>
+          <span>Feels Like</span>
+          <p id="feels"></p>
+        </div>
+        <div>
+          <span>Humidity</span>
+          <p id="humidity"></p>
+        </div>
+        <div>
+          <span>Wind</span>
+          <p id="wind"></p>
+        </div>
+        <div>
+          <span>AQI</span>
+          <p id="aqi"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
