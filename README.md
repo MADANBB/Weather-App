@@ -6,6 +6,8 @@ Give your location to know temperature in your region
 A full-stack weather application built using HTML, CSS, JavaScript, Node.js, and Express, which allows users to search weather details by city name.
 The app securely fetches live weather data from WeatherAPI using a backend proxy and environment variables.
 
+🔗 Live Demo: https://weather-app-gx7i.onrender.com/
+
 🚀 Features
 
 🌍 Search weather by city name
