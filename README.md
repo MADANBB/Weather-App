@@ -29,7 +29,7 @@ HTML5
 
 CSS3 (Glassmorphism UI)
 
-JavaScript (Vanilla)
+JavaScript
 
 Backend
 
@@ -98,12 +98,6 @@ Render
 Backend and frontend served together
 
 Environment variables configured in Render dashboard
-
-Vercel
-
-Express server deployed using serverless configuration
-
-API routes handled securely
 
 
  What I Learned
